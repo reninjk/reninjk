@@ -6,53 +6,57 @@ I lead Security Operations with a focus on building resilient detection capabili
 
 ---
 
-## 🔐 What I Do
+## 🔒 What I Do
 
 - **Security Operations Leadership** — Managing SOC teams, shift coverage, SLA governance, and analyst development
-- **Detection Engineering** — Writing and tuning detection rules (Sigma, KQL, SPL) mapped to MITRE ATT\&CK
+- **Detection Engineering** — Writing and tuning detection rules (Sigma, KQL, SPL) mapped to MITRE ATT&CK
 - **Incident Response** — Owning IR playbooks from phishing to ransomware; P1 incident commander
 - **Security Automation** — Building Python tools for alert triage, IOC enrichment, and automated reporting
 - **Compliance & Reporting** — NIST CSF, ISO 27001; producing board-level executive summaries and CISO dashboards
 
 ---
 
-## 🛠️ SOC Repositories
+## 📊 GitHub Stats
 
-| Repository | Description |
-|------------|-------------|
-| [🚨 soc-incident-response](https://github.com/reninjk/soc-incident-response) | IR playbooks, runbooks, and incident report templates — from phishing to ransomware |
-| [🔍 soc-detection-rules](https://github.com/reninjk/soc-detection-rules) | Sigma detection rules and threat hunting queries mapped to MITRE ATT\&CK |
-| [⚙️ soc-automation](https://github.com/reninjk/soc-automation) | Python scripts for IOC enrichment, automated alert triage, and severity classification |
-| [📊 soc-compliance-reporting](https://github.com/reninjk/soc-compliance-reporting) | NIST CSF audit checklists, SOC KPI metrics, weekly/monthly executive report templates |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=reninjk&show_icons=true&theme=dark&hide_border=true&count_private=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=reninjk&layout=compact&theme=dark&hide_border=true" height="165" alt="Top Languages" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=reninjk&theme=dark&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🛠 SOC Repositories
+
+| Repository | Description | CI |
+|---|---|---|
+| 🚨 [soc-incident-response](https://github.com/reninjk/soc-incident-response) | IR playbooks, runbooks, and incident report templates — from phishing to ransomware | ![CI](https://github.com/reninjk/soc-incident-response/actions/workflows/validate.yml/badge.svg) |
+| 🔍 [soc-detection-rules](https://github.com/reninjk/soc-detection-rules) | Sigma detection rules and threat hunting queries mapped to MITRE ATT&CK | ![CI](https://github.com/reninjk/soc-detection-rules/actions/workflows/validate.yml/badge.svg) |
+| ⚙️ [soc-automation](https://github.com/reninjk/soc-automation) | Python scripts for IOC enrichment, automated alert triage, and severity classification | ![CI](https://github.com/reninjk/soc-automation/actions/workflows/ci.yml/badge.svg) |
+| 📊 [soc-compliance-reporting](https://github.com/reninjk/soc-compliance-reporting) | NIST CSF audit checklists, SOC KPI metrics, weekly/monthly executive report templates | ![CI](https://github.com/reninjk/soc-compliance-reporting/actions/workflows/validate.yml/badge.svg) |
+| 🌐 [soc-threat-intelligence](https://github.com/reninjk/soc-threat-intelligence) | IOC feeds, actor profiles, TI reports, and MISP integration guides | ![CI](https://github.com/reninjk/soc-threat-intelligence/actions/workflows/validate.yml/badge.svg) |
+| 🛡️ [soc-vulnerability-management](https://github.com/reninjk/soc-vulnerability-management) | Vulnerability workflows, patch SLA tracking, CVSS risk scoring, and remediation processes | ![CI](https://github.com/reninjk/soc-vulnerability-management/actions/workflows/validate.yml/badge.svg) |
+| 🎓 [soc-training-lab](https://github.com/reninjk/soc-training-lab) | Analyst onboarding, training scenarios, tabletop exercises, and certification roadmap | ![CI](https://github.com/reninjk/soc-training-lab/actions/workflows/validate.yml/badge.svg) |
 
 ---
 
 ## 🧰 Tech & Tools
 
-**SIEM / Detection**
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
-![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=flat&logo=microsoft&logoColor=white)
-![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat&logo=elastic&logoColor=white)
+**SIEM / Detection** &nbsp; ![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white) ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=flat&logo=microsoft&logoColor=white) ![Elastic](https://img.shields.io/badge/Elastic-005571?style=flat&logo=elastic&logoColor=white)
 
-**Languages & Scripting**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white)
+**Languages & Scripting** &nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white)
 
-**Frameworks & Standards**
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-E3001B?style=flat&logoColor=white)
-![NIST CSF](https://img.shields.io/badge/NIST_CSF-003087?style=flat&logoColor=white)
-![ISO 27001](https://img.shields.io/badge/ISO_27001-6DB33F?style=flat&logoColor=white)
+**Frameworks & Standards** &nbsp; ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-E4002B?style=flat) ![NIST CSF](https://img.shields.io/badge/NIST_CSF-003087?style=flat) ![ISO 27001](https://img.shields.io/badge/ISO_27001-00843D?style=flat)
 
-**DevOps & Automation**
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**DevOps & Automation** &nbsp; ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
-## 📈 SOC Philosophy
+## 🧠 My SOC Philosophy
 
-> *"A SOC that can't measure itself can't improve itself."*
+> *"A SOC that can't measure itself, can't improve itself."*
 
 I believe in three pillars for effective security operations:
 
@@ -62,20 +66,21 @@ I believe in three pillars for effective security operations:
 
 ---
 
-## 📂 Repository Structure Philosophy
+## 📁 Repository Structure Philosophy
 
 All my SOC repos follow the same principles:
+
 - ✅ **Version-controlled** — Every playbook, rule, and script change is tracked in Git
 - ✅ **CI/CD validated** — GitHub Actions check structure, syntax, and links on every push
-- ✅ **Framework-mapped** — Detection rules and playbooks are tagged to MITRE ATT\&CK tactics
+- ✅ **Framework-mapped** — Detection rules and playbooks are tagged to MITRE ATT&CK tactics
 - ✅ **Tool-agnostic where possible** — Sigma rules convert to Splunk SPL, Microsoft KQL, Elastic EQL
 - ✅ **Peer-reviewed** — All production changes go through PR review
 
 ---
 
-## 📫 Get in Touch
+## 📬 Get in Touch
 
-- **GitHub:** [@reninjk](https://github.com/reninjk)
+- GitHub: [@reninjk](https://github.com/reninjk)
 
 ---
 
