@@ -2,20 +2,18 @@
 
 ### SOC Manager | Detection Engineer | Security Automation Advocate
 
-I lead Security Operations with a focus on building resilient detection capabilities,
-streamlining incident response, and automating repetitive analyst work so teams can
-focus on what matters — finding and stopping threats.
+I run the SOC day-to-day. My focus is detection engineering, incident response, and building automation that removes grunt work from the analyst queue. The goal is always the same: find real threats faster and cut the noise.
 
 ---
 
 ## 🔒 What I Do
 
-- **Security Operations Leadership** — Managing SOC teams, shift coverage, SLA governance, and analyst development
-- **Detection Engineering** — Writing and tuning detection rules (Sigma, KQL, SPL) mapped to MITRE ATT&CK
-- **Incident Response** — Owning IR playbooks from phishing to ransomware; P1 incident commander
-- **Security Automation** — Building Python tools for alert triage, IOC enrichment, and SOAR integration
-- **Threat Intelligence** — Actor profiling, TI feed management, IOC lifecycle, MISP integration
-- **Compliance & Reporting** — NIST CSF, ISO 27001; board-level executive summaries and CISO dashboards
+- **Security Operations Leadership**: Managing SOC teams, shift coverage, SLA governance, and analyst development
+- **Detection Engineering**: Writing and tuning detection rules (Sigma, KQL, SPL) mapped to MITRE ATT&CK
+- **Incident Response**: Running IR playbooks from phishing to ransomware; P1 incident commander
+- **Security Automation**: Building Python tools for alert triage, IOC enrichment, and SOAR integration
+- **Threat Intelligence**: Actor profiling, TI feed management, IOC lifecycle, MISP integration
+- **Compliance & Reporting**: NIST CSF, ISO 27001; board-level executive summaries and CISO dashboards
 
 ---
 
@@ -47,7 +45,7 @@ focus on what matters — finding and stopping threats.
 
 | Repository | Description | CI |
 |---|---|---|
-| 🚨 [soc-incident-response](https://github.com/reninjk/soc-incident-response) | IR playbooks, runbooks, and incident report templates — from phishing to ransomware | ![CI](https://github.com/reninjk/soc-incident-response/actions/workflows/validate.yml/badge.svg) |
+| 🚨 [soc-incident-response](https://github.com/reninjk/soc-incident-response) | IR playbooks, runbooks, and incident report templates covering phishing through ransomware | ![CI](https://github.com/reninjk/soc-incident-response/actions/workflows/validate.yml/badge.svg) |
 | 🔍 [soc-detection-rules](https://github.com/reninjk/soc-detection-rules) | Sigma detection rules and threat hunting queries mapped to MITRE ATT&CK | ![CI](https://github.com/reninjk/soc-detection-rules/actions/workflows/validate.yml/badge.svg) |
 | ⚙️ [soc-automation](https://github.com/reninjk/soc-automation) | Python tools for alert triage, IOC enrichment, SOAR webhook integration, and metrics | ![CI](https://github.com/reninjk/soc-automation/actions/workflows/ci.yml/badge.svg) |
 | 📊 [soc-compliance-reporting](https://github.com/reninjk/soc-compliance-reporting) | NIST CSF audit checklists, SOC KPI metrics, weekly/monthly executive report templates | ![CI](https://github.com/reninjk/soc-compliance-reporting/actions/workflows/validate.yml/badge.svg) |
@@ -97,9 +95,9 @@ Current Sigma rule coverage across tactics (soc-detection-rules):
 
 I believe in three pillars for effective security operations:
 
-1. **Detect more, alert less** — High-fidelity detections beat alert fatigue every time. Tune ruthlessly.
-2. **Automate the repeatable** — Every manual task a machine can do is analyst time freed for real hunting.
-3. **Communicate clearly** — A P1 incident handled perfectly but reported poorly loses stakeholder trust.
+1. **Detect more, alert less**: High-fidelity detections beat alert fatigue every time. Tune ruthlessly.
+2. **Automate the repeatable**: Every manual task a machine can do is analyst time freed for real hunting.
+3. **Communicate clearly**: A P1 incident handled perfectly but reported poorly loses stakeholder trust.
 
 ---
 
@@ -107,12 +105,12 @@ I believe in three pillars for effective security operations:
 
 All my SOC repos follow the same principles:
 
-- ✅ **Version-controlled** — Every playbook, rule, and script change is tracked in Git
-- ✅ **CI/CD validated** — GitHub Actions check structure, syntax, and links on every push
-- ✅ **Framework-mapped** — Detection rules and playbooks are tagged to MITRE ATT&CK tactics
-- ✅ **Tool-agnostic where possible** — Sigma rules convert to Splunk SPL, Microsoft KQL, Elastic EQL
-- ✅ **Peer-reviewed** — All production changes go through PR review
-- ✅ **OPSEC-first** — No real credentials, IOCs, or employer data in any repo
+- ✅ **Version-controlled**: every playbook, rule, and script change tracked in Git
+- ✅ **CI/CD validated**: GitHub Actions check structure, syntax, and links on every push
+- ✅ **Framework-mapped**: detection rules and playbooks tagged to MITRE ATT&CK tactics
+- ✅ **Tool-agnostic where possible**: Sigma rules convert to Splunk SPL, Microsoft KQL, Elastic EQL
+- ✅ **Peer-reviewed**: all production changes go through PR review
+- ✅ **OPSEC-first**: no real credentials, IOCs, or employer data in any repo
 
 ---
 
@@ -123,4 +121,4 @@ All my SOC repos follow the same principles:
 
 ---
 
-*"Security is not a product, but a process." — Bruce Schneier*
+*"Security is not a product, but a process." - Bruce Schneier*
